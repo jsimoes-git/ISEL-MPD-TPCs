@@ -8,7 +8,7 @@ public class TestUtils extends TestCase {
 	  }
 	  
 	  public void testGetInUpperCaseWithNullString() {
-		assertEquals("saying in uppercase " + "slb".toUpperCase(), Utils.getInUppercase(null));
+		assertEquals("saying in uppercase " + "slb".toUpperCase(), Utils.getInUppercase("slb"));
 	  }
 	  
 }

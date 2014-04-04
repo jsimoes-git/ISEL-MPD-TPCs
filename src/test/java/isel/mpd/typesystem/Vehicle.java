@@ -1,7 +1,5 @@
 package isel.mpd.typesystem;
 
-import isel.mpd.misc.Utils;
-
 public class Vehicle {
 	private String name = "default";
 	private String brand = "default";
